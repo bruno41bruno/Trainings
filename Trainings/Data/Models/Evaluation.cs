@@ -8,7 +8,7 @@ namespace Data.Models
 {
     public class Evaluation : BaseModel
     {
-        //public Profile Profile { get; set; }
+        public Profile Profile { get; set; }
         public string Criteria { get; set; }
         public int Grade { get; set; }
     }
