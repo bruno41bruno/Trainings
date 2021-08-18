@@ -46,7 +46,7 @@ namespace Data.Repository
             }
         }
 
-        public void Delete(M model)
+        public virtual void Delete(M model)
         {
             using (var context = new BaseContext())
             {
