@@ -12,7 +12,7 @@ namespace Data.Repository
 {
     public class BaseRepository<M> where M:BaseModel
     {
-        public void Create(M model)
+        public virtual void Create(M model)
         {
             using (var context = new BaseContext())
             {
@@ -21,7 +21,7 @@ namespace Data.Repository
             }
         }
 
-        public List<M> Read()
+        public virtual List<M> Read()
         {
             using (var context = new BaseContext())
             {
@@ -29,7 +29,7 @@ namespace Data.Repository
             }
         }
 
-        public M Read(int id)
+        public virtual M Read(int id)
         {
             using (var context = new BaseContext())
             {
@@ -37,7 +37,7 @@ namespace Data.Repository
             }
         }
 
-        public void Update(M model)
+        public virtual void Update(M model)
         {
             using (var context = new BaseContext())
             {
