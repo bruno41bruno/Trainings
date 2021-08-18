@@ -9,6 +9,5 @@ namespace Data.Repository
 {
     public class ScheduleRepository : BaseRepository<Schedule>
     {
-
     }
 }

@@ -9,6 +9,5 @@ namespace Data.Repository
 {
     public class ContentRepository : BaseRepository<Content>
     {
-
     }
 }
