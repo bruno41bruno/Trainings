@@ -14,6 +14,7 @@ namespace Data.Context
         public DbSet<Content> Contents { get; set; }
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<Evaluation> Evaluations { get; set; }
+        public DbSet<Address> Adressess { get; set; }
         public BaseContext() : base(@"Data Source=192.168.0.165;Initial Catalog=Trainings;Persist Security Info=True;User ID=Trainings;Password=trainings@123")
         {
 

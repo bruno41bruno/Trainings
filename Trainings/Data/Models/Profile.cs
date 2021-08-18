@@ -11,6 +11,6 @@ namespace Data.Models
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
         public string Description { get; set; }
-        //public Address Address { get; set; }
+        public Address Address { get; set; }
     }
 }
